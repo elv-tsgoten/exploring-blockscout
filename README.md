@@ -8,8 +8,6 @@ This is the main DB Schema linked in Blockscout's website
 https://github.com/blockscout/docs/blob/master/.gitbook/assets/bs_db_scheme.png
 https://docs.blockscout.com/for-developers/db-schema
 I will refer to the tables described in this Schema and how it pertains to our implementation. 
-![](https://gblobscdn.gitbook.com/assets%2F-Lq1XoWGmy8zggj_u2fM%2F-MA5flVCI-YNFUDsG334%2F-MA5iM-buMVAlzXQBq0M%2FBS_DB_scheme.png?alt=media&token=3ce78d1f-187d-41ff-84da-749fc0989c76)
-
 ### Notes
 My findings are from a dump of DemoV3 on July 29, 2021. If significant changes have been made since, then this is no longer up to date. 
 
@@ -24,3 +22,6 @@ My findings are from a dump of DemoV3 on July 29, 2021. If significant changes h
 | smart_contracts | no data :(
 | users | no data :(
 | tokens | useful data! Has the name of the various tokens, as well as the type (ERC-20, ERC-721) etc. 
+
+# Schema
+![](https://gblobscdn.gitbook.com/assets%2F-Lq1XoWGmy8zggj_u2fM%2F-MA5flVCI-YNFUDsG334%2F-MA5iM-buMVAlzXQBq0M%2FBS_DB_scheme.png?alt=media&token=3ce78d1f-187d-41ff-84da-749fc0989c76)
